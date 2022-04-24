@@ -1,9 +1,9 @@
 public class Main {
     public static void main(String[] args) {
-       printSomething();
+        System.out.println(printSomething());
     }
 
-    public static void printSomething() {
-        System.out.println("A project runnable on jenkins");
+    public static String printSomething() {
+        return "A project runnable on jenkins";
     }
 }
